@@ -5,7 +5,7 @@ import src.main.java.AdventDay;
 public class Day01 {
 
     public static void main(String[] args) {
-        var day1 = new AdventDay<Long>(2025, 1, /* testing */ true);
+        var day1 = new AdventDay<Long>(2025, 01, /* testing */ true);
         String[] rotations = day1.getInputLines();
 
         // System.out.println(Arrays.toString((rotations)));

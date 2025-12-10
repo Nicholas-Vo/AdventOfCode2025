@@ -5,10 +5,10 @@ package src.main.java;
  */
 public class AdventDate {
     private final int year;
-    private final int day;
+    private final String day;
     private int part;
 
-    public AdventDate(int year, int day) {
+    public AdventDate(int year, String day) {
         this.year = year;
         this.day = day;
     }
@@ -21,7 +21,7 @@ public class AdventDate {
         return year;
     }
 
-    public int day() {
+    public String day() {
         return day;
     }
 

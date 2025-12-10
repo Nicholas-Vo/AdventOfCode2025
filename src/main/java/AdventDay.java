@@ -12,15 +12,15 @@ public class AdventDay<R> {
     private InputReader reader;
     private boolean testing;
 
-    public AdventDay(int year, int day) {
+    public AdventDay(int year, String day) {
         construct(year, day, false);
     }
 
-    public AdventDay(int year, int day, boolean testing) {
+    public AdventDay(int year, String day, boolean testing) {
         construct(year, day, testing);
     }
 
-    private void construct(int year, int day, boolean testing) {
+    private void construct(int year, String day, boolean testing) {
         adventDate = new AdventDate(year, day);
         reader = new InputReader(this.adventDate, testing);
         this.testing = testing;
