@@ -59,7 +59,7 @@ public class Day02 {
         if (asString.startsWith("0")) {
             return true;
         }
-        if (asString.matches("(?:(\\d+)\\1){1,2}")) {
+        if (asString.matches("^([1-9]\\d*)(\\1)+$")) {
             return true;
         }
 
