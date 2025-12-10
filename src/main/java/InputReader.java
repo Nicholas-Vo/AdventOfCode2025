@@ -15,7 +15,7 @@ public class InputReader {
         // final String fileName = useTestFile ? path + "-test" + ".txt" : path + ".txt";
 
         //vscode/codespace friendly path
-        final String fileName = "src/main/resources/day01/aoc-2025-1-test.txt";
+        final String fileName = "src/main/resources/day01/aoc-2025-1.txt";
 
         try {
             var resource = this.getClass().getClassLoader().getResource(fileName);
